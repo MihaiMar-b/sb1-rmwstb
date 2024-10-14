@@ -1,0 +1,30 @@
+name: brand_creator_collab
+description: A Flutter web app for brand-creator collaboration
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.2
+  cloud_firestore: ^4.7.1
+  firebase_storage: ^11.2.1
+  provider: ^6.0.5
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+  image_picker_web: ^3.0.0+1
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
